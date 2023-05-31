@@ -18,4 +18,4 @@ Next, find subdomains of subdomains by running the enumeration tools on the prev
 ## Service Enumeration
 
 with nmap =====> active scanning (attackers can be detected)
-shodan =====> passive scanning (no detection)
+shodan, Censys and Project Sonar =====> passive scanning (no detection)
