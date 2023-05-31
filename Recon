@@ -10,3 +10,12 @@ to find hostnames that use the same ssl certificate
 ## Subdomain Enumeration
 
 to have wordlists for domains https://github.com/danielmiessler/SecLists/
+
+A good tool for automating the process is Altdns (https://github.com/infosec-au/altdns/), which discovers subdomains with names that are permutations of other subdomain names.
+
+Next, find subdomains of subdomains by running the enumeration tools on the previous results
+
+## Service Enumeration
+
+with nmap =====> active scanning (attackers can be detected)
+shodan =====> passive scanning (no detection)
