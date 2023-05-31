@@ -1,0 +1,12 @@
+## Scope Discovery
+
+whois // to have more infos about a domain name
+
+reverse whois // to find all the domains that belong to the same owner, tool like ViewDNS.info
+
+## Certificate Parsing
+to find hostnames that use the same ssl certificate
+
+## Subdomain Enumeration
+
+to have wordlists for domains https://github.com/danielmiessler/SecLists/
