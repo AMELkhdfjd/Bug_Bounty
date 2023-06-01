@@ -19,3 +19,16 @@ Next, find subdomains of subdomains by running the enumeration tools on the prev
 
 with nmap =====> active scanning (attackers can be detected)
 shodan, Censys and Project Sonar =====> passive scanning (no detection)
+
+## Directory Brute-Forcing
+
+with Gobuster or Dirbuster
+ ./dirsearch.py -u scanme.nmap.org -e php // -e for extension
+ gobuster dir -u target_url -w wordlist // -u to specify the subdomain to brute force
+ 
+ dont visit all the urls one by one, inside use these tools to get screenshots:  EyeWitness (https://github.com/FortyNorthSecurity/EyeWitness/) or Snapper (https://github.com/dxa4481/Snapper/)
+ >> . Keep an eye out for hidden services, such as developer or admin panels, directory listing pages, analytics pages, and pages that look outdated and illmaintained.
+ 
+ ## Spidering the Site
+ 
+ to identify all pages on a site, use ZAP tool  https://www.zaproxy.org/ (learn how on "the BOOK"
