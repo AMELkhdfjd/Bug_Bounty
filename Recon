@@ -48,6 +48,19 @@ trufflesecurity/truffleHog/) specializes in finding secrets in repositories by c
 
 
 
+## Other Sneaky OSINT Techniques
+
+1. search for job positions proposed by the company to know the technos they are using, if not search on linkedin for past or current employees and check out their posts
+2. check the employees' google calendar to see some notes and login creds
+
+## Fingerpriting technos:
+
+search with nmap for versions of services running, try with burp to get a response http to analyse the headers, they should contains infos about the server used, the scripting language, ...
+search on the source code of the page for words like  powered by, built with, and running
+several applications can automate this process. Wappalyzer (https://www.wappalyzer.com/) is a browser extension that identifies content management systems, frameworks, and programming languages used on a site. BuiltWith(https://builtwith.com/) is a website that shows you which web technologies a site is built with. StackShare (https://stackshare.io/) is an online platform that allows developers to share the tech they use. You can use it to find out if the organization’s developers have posted their tech stack. Finally, 80   Chapter 5
+Retire.js is a tool that detects outdated JavaScript libraries and Node.js packages. You can use it to check for outdated technologies on a site.
+
+
 
 
 
