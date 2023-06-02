@@ -61,6 +61,19 @@ several applications can automate this process. Wappalyzer (https://www.wappalyz
 Retire.js is a tool that detects outdated JavaScript libraries and Node.js packages. You can use it to check for outdated technologies on a site.
 
 
+## Automation scripts:
+
+ you might categorize your scripts into recon scripts, fuzzing scripts, automated reporting
+ 
+ ## scheduling automatic scans
+ 
+ e can use cron jobs to schedule our scans. Cron is a job scheduler on 
+Unix-based operating systems. It allows you to schedule jobs to run periodically. For example, you can run a script that checks for new endpoints on 
+a particular site every day at the same time. Or you can run a scanner that 
+checks for vulnerabilities on the same target every day. This way, you can 
+monitor for changes in an application’s behavior and find ways to exploit it
+
+
 
 
 
